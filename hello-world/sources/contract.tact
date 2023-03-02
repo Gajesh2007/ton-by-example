@@ -1,6 +1,6 @@
 import "@stdlib/deploy";
  
-contract xToken with Deployable {
+contract HelloWorld with Deployable {
     init() {
 
     }
