@@ -1,6 +1,6 @@
 {
     "projects": [{
-        "name": "simple_storage",
+        "name": "ton",
         "path": "./sources/contract.tact",
         "output": "./sources/output"
     }]
