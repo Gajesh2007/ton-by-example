@@ -1,6 +1,7 @@
 import "@stdlib/deploy";
 
 contract VariableExample {
+
     text: String = "Hey!";
     latest_timestamp: Int; 
 
