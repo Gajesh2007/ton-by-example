@@ -1,9 +1,6 @@
 import "@stdlib/deploy";
 
 contract VariableExample {
-    // Constant
-    constant creator: String = "Gajesh Naik";
-    
     text: String = "Hey!";
     latest_timestamp: Int; 
 
