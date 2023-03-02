@@ -1,6 +1,6 @@
 import "@stdlib/deploy";
 
-contract VariableExample {
+contract ConstantExample {
     // Constant
     constant creator: String = "Gajesh Naik";
     constant number: Int = 123455;
@@ -8,7 +8,7 @@ contract VariableExample {
     init() {
     }
  
-    get fun creator() {
+    get fun creator():String {
         return self.creator;
     }
 }
